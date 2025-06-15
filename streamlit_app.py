@@ -7,7 +7,7 @@ st.title("🔎 CDSCO SEC PDF Keyword Search")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/sec_text_dump.csv")
+    return pd.read_csv("https://raw.githubusercontent.com/Mainak-dev/cdsco-sec-keyword-search/refs/heads/main/sec_text_dump.csv?token=GHSAT0AAAAAADFUYXFMQOYYHJJC3XUQ3NN42CO3IZQ")
 
 df = load_data()
 
